@@ -5,8 +5,8 @@
     "win": "2.2074"
   },
   "version": "v0.1.0",
-  "id": "usuario.dynamic_click_lab",
-  "name": "Dynamic Click Lab",
-  "developer": "Usuario",
-  "description": "Prototipo de zonas dinamicas y registro de clicks por frame en PlayLayer."
+  "id": "agusdikota.patter_lab",
+  "name": "Patter Lab",
+  "developer": "agusdikota",
+  "description": "Experimento de patrones y zonas dinamicas en GD."
 }
