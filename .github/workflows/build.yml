@@ -1,0 +1,27 @@
+name: Build Geode Mod (Android)
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build-android:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build Geode mod for Android64
+        id: build
+        uses: geode-sdk/build-geode-mod@main
+        with:
+          target: Android64
+          build-config: Release
+
+      - name: Upload .geode artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: DynamicClickLab-Android64
+          path: ${{ steps.build.outputs.build-output }}
+          
