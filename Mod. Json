@@ -8,5 +8,5 @@
   "id": "agusdikota.patter_lab",
   "name": "Patter Lab",
   "developer": "agusdikota",
-  "description": "Experimento de patrones y zonas dinamicas en GD."
+  "description": "Prototipo de zonas dinamicas y registro de clicks por frame en PlayLayer."
 }
