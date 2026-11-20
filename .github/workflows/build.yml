@@ -18,6 +18,7 @@ jobs:
         with:
           target: Android64
           build-config: Release
+          sdk: "v4.0.0"
 
       - name: Upload .geode artifact
         uses: actions/upload-artifact@v4
