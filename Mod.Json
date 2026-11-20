@@ -1,12 +1,12 @@
 {
-  "geode": "4.0.0",
-  "gd": {
-    "android": "2.2074",
-    "win": "2.2074"
-  },
-  "version": "v0.1.0",
-  "id": "agusdikota.patter_lab",
-  "name": "Patter Lab",
-  "developer": "agusdikota",
-  "description": "Prototipo de zonas dinamicas y registro de clicks por frame en PlayLayer."
+	"geode": "v4.0.0",
+	"gd": {
+		"android": "2.2074",
+		"win": "2.2074"
+	},
+	"version": "v0.1.0",
+	"id": "agusdikota.patter",
+	"name": "Patter",
+	"developer": "agusdikota",
+	"description": "Prototipo de zonas dinamicas y registro de clicks por frame en PlayLayer."
 }
